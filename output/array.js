@@ -1,4 +1,5 @@
 "use strict";
+// Array is immutable can't change
 let fruits = ["Apple", "Banana", "Orange"];
 console.log(fruits[0]);
 fruits.pop();
@@ -16,3 +17,7 @@ console.log(element);
 const num3 = [22, 23, 34];
 const lastNum = num3.pop();
 console.log(lastNum);
+// Slice
+const numSlice = [3, 4, 5, 6, 7, 8];
+const numSliceAns = numSlice.slice(2, 5);
+console.log(numSliceAns);

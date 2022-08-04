@@ -12,3 +12,8 @@ let num2 = 0.2;
 let sum = num1 + num2;
 sum = parseFloat(sum.toFixed(1));
 console.log(sum);
+
+// Include and Substring
+const something = "my name is Abhi";
+console.log(something.includes("bye"));
+console.log(something.substring(0, 5));
