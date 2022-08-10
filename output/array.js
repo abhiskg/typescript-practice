@@ -17,7 +17,16 @@ console.log(element);
 const num3 = [22, 23, 34];
 const lastNum = num3.pop();
 console.log(lastNum);
-// Slice
-const numSlice = [3, 4, 5, 6, 7, 8];
-const numSliceAns = numSlice.slice(2, 5);
-console.log(numSliceAns);
+// How to check an array
+const friends = [34, 67, 86, 44];
+console.log(typeof friends); //Ans:object
+console.log(Array.isArray(friends)); //Ans: True
+// How to check if an element is present in an array or not
+console.log(friends.includes(18));
+if (friends.indexOf(34) !== -1) {
+}
+// How to concat two array?
+const oldFriends = ["Abhi", "Shamil"];
+const newFriends = ["Shakil", "Anis"];
+const allFriends = oldFriends.concat(newFriends);
+console.log(allFriends);
